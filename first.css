@@ -10,3 +10,14 @@
 	scroll-snap-type: both mandatory;
 	scroll-padding: 1rem;
 }
+
+active {
+	scroll-snap-type: unset;
+}
+
+li {
+	scroll-snap-align: center;
+	display: inline-block;
+	border-radius: 3px;
+	font-size: 0;
+}
